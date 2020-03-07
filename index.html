@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/untilities.css">
     <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Mukta:200,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -16,14 +17,60 @@
         <div class="container">
             <div class="container__logo"><img src="/img/logo.png" alt=""></div>
             <div class="container__flex">
-                <div class="container__img"><img src="img\sneaker.png" alt=""></div>
-                <div class="container__subtitle">
+                <div class="flex__img"><img src="img\sneaker.png" alt="">
+                    <div class="img__slider">
+                        <img src="img\sneaker.png" alt="">
+                        <img src="img\sneaker.png" alt="">
+                        <img src="img\sneaker.png" alt="">
+                        <img src="img\sneaker.png" alt="">
+                    </div>
+                </div>
+                <div class="flex__subtitle">
                     <h1>Nike SB Stefan Janoski Max</h1>
                     <p>Unisex Skateboarding Shoe (Men's Sizing)</p>
+                    <div class="subtitle__rating">
+                        <input type="radio" name="rating" id="star-5" value="5">
+                        <label class="subtitle__label" for="star-5"></label>
+                        <input type="radio" name="rating" id="star-4" value="4">
+                        <label class="subtitle__label" for="star-4"></label>
+                        <input type="radio" name="rating" id="star-3" value="3">
+                        <label class="subtitle__label" for="star-3"></label>
+                        <input type="radio" name="rating" id="star-2" value="2">
+                        <label class="subtitle__label" for="star-2"></label>
+                        <input type="radio" name="rating" id="star-1" value="1">
+                        <label class="subtitle__label" for="star-1"></label>
+                    </div>
+                    <div class="subtitle__select">
+                        <select>
+                            <option class="select__color" label="Size" value="1" selected></option>
+                            <option>39</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option disabled>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                        </select>
+                        <select>
+                            <option label="Qty" value="1" selected></option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option disabled>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </select>
+                    </div>
+                    <div class="subtitle__button">
+                        <p><a href="#">Add to cart</a></p>
+                    </div>
                 </div>
+
             </div>
             <footer class="container__footer">
-
+                <div class="footer__black-b"></div>
+                <div class="footer__white-b"></div>
+                <div class="footer__red-b"></div>
+                <div class="footer__aquablue-b"></div>
             </footer>
         </div>
     </div>
