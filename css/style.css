@@ -18,7 +18,7 @@
 }
 
 .container__logo img {
-    margin-left: 20px;
+    margin-left: 5px;
     margin-top: 20px;
 } 
 
@@ -26,8 +26,8 @@
     position: relative;
     width: max-content;
     margin: 0;
-    margin-top: 62px;
-    margin-left: 20px;
+    margin-top: 60px;
+    margin-left: 5px;
 }
 
 /* .img__slider {
@@ -92,7 +92,10 @@
     margin: 0;
     width: 200px;
     margin-left: 81px;
-    margin-top: 12px;
+    margin-top: 10px;
+}
+.subtitle__title {
+    margin-top: 0;
 }
 
 .flex__subtitle p {
@@ -151,7 +154,7 @@
 }
 
 .subtitle__select select {
-    margin-top: 20px;
+    margin-top: 25px;
     width: 70px;
     height: 32px;
     padding-left: 12px;
@@ -161,7 +164,7 @@
 }
 
 .subtitle__button p {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-right: 55px;
     width: 200px;
     height: 40px;
@@ -192,6 +195,7 @@
 }
 
 .container__footer {
-    margin-left: 150px;
+    margin-left: 135px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
