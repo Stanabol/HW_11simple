@@ -188,3 +188,7 @@
     margin-bottom: 20px;
     margin-top: 36px;
 }
+
+.subtitle__button:hover {
+    background-color: dimgray;
+}
