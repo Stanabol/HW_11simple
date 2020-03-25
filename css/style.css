@@ -157,9 +157,10 @@
     margin-top: 25px;
     width: 70px;
     height: 32px;
-    padding-left: 12px;
+    padding-left: 7px;
     background-color: #111A28;
     color: #E1E1E1;
+    
     
 }
 
@@ -172,11 +173,14 @@
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.05em;
-    background: #4C525A;
+    background: #252C37;
     border: 1px solid #FFFFFF;
     text-align: center;
     width: 200px;
     height: 40px;
+    /* opacity: 0.25; */
+    color: #E1E1E1;
+    
 }
 
 .container__footer {
